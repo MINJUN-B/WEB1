@@ -3,11 +3,23 @@
 <head>
   <title>WEB1 - welcom</title>
   <meta charset="utf-8">
+
   <style>
-    a {
+  a {
     color:black;
+    text-decoration: none;
+  }
+  #active {
+    color: red;
+  }
+  .saw {
+    color: gray;
+  }
+  h1 {
+    font-size:45px;text-align:center;
   }
 </style>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158657377-1"></script>
 <script>
@@ -20,11 +32,11 @@
 
 </head>
 <body>
-  <h1><a href="index.html">WEB<a/></h1>
+  <h1><a href="index.html" class="saw" id="active">WEB<a/></h1>
   <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JsvaScript</a></li>
+    <li><a href="1.html" class="saw">HTML</a></li>
+    <li><a href="2.html" class="saw">CSS</font></a></li>
+    <li><a href="3.html" class="saw">JavaScript</a></li>
   </ol>
   <!--
   <h1><a href="index.html"><font color="red">WEB</font><a/></h1>
@@ -48,7 +60,7 @@ Multiple web resources with a common theme, a common domain name, or both, make 
   <div id="disqus_thread"></div>
 <script>
 
-/**
+/*
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 /*
@@ -96,7 +108,9 @@ s0.parentNode.insertBefore(s1,s0);
 <ul> unordered list 다른 목록과 구분할 수 있도록 경계가 필요할 때_부모
 <ol> ordered list 목록에 숫자 자동 붙여줄 때
   <li>목차_자식</li>
-  <li>목차_자식</li> </ol> </ul>
+  <li>목차_손자</li>
+  <li>목차_며느리</li> </ol> </ul>
+
 <a href="#">링크를 넣는 태그</a>
    "target="_blank" 링크 태그 안에 삽입 시 탭으로 열리게함
     title="#" 링크 태그 안 삽입 시 주석효과
